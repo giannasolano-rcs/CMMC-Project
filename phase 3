@@ -1,0 +1,30 @@
+# Phase 3: Remediation Roadmap & Scorecard Strategy
+**Client Name:** [Client Name]  
+**Baseline SPRS Score:** [Score] / 110  
+
+---
+
+## 1. Remediation Workbook Setup
+- [ ] Baseline POA&M parsed via toolkit script (`build_remediation_workbook.py`)
+- [ ] Remediation Workbook verified with zero formatting errors (Stored in `03-remediation/`)
+- [ ] PM pre-annotations completed with default RCS mitigation recommendations
+
+## 2. Responsibility Assignment (RACI Matrix)
+*List key technical tasks assigned during the client post-assessment alignment meeting:*
+
+| Task ID | Description | Responsibility (RCS / Client / Third-Party) | Target Completion Date |
+| :--- | :--- | :--- | :--- |
+| AC.L1-3.1.1 | Limit information system access to authorized users | [Assignee] | [YYYY-MM-DD] |
+| IA.L1-3.5.3 | Enforce Multi-Factor Authentication (MFA) | [Assignee] | [YYYY-MM-DD] |
+| MP.L2-3.8.3 | Sanitize or destroy system media before disposal | [Assignee] | [YYYY-MM-DD] |
+
+## 3. Financial & Operational Scorecard
+- [ ] SPRS scorecard generated in URP based on the assigned Remediation Workbook (Stored in `03-remediation/`)
+- [ ] Technical Implementation SOW Generated (Phase 3, Step 13)
+- [ ] Remediation Proposal delivered and signed by Client (Stored in `00-admin/`)
+
+> **Source Standard:** SPRS score decrements must align strictly with the **DoD NIST SP 800-171 Assessment Methodology**, deducting 1, 3, or 5 points per non-compliant security practice.
+
+## 4. Phase-Gate Approval
+*   **PM Sign-off:** ___________________________ **Date:** [YYYY-MM-DD]
+*   **Client Executive Sign-off:** __________________ **Date:** [YYYY-MM-DD]
