@@ -1,0 +1,30 @@
+# Phase 5: Handoff, Verification & Archival Record
+**Client Name:** [Client Name]  
+**Final Post-Remediation SPRS Score:** [Score] / 110  
+
+---
+
+## 1. Final Post-Remediation Verification Scans
+- [ ] Delta network scanning executed via Datto RMM
+- [ ] Updated configurations merged to RFT master workspace
+- [ ] Updated Compliance Report generated (Stored in `02-assessment/`)
+- [ ] Final Remediation Workbook updated and marked "Closed" (Stored in `03-remediation/`)
+
+## 2. Evidence Vault Integrity Check (Naming Taxonomy)
+*Verify that the files inside `04-evidence/Technical_Evidence/` conform to the strict mapping standard:*
+
+- [ ] Control `AC.L1-3.1.1` contains an active Authorized User List and Access Request Form.
+- [ ] Control `IA.L2-3.5.3` contains active MFA configurations (Conditional Access screenshots or GPO proofs).
+- [ ] Control `SC.L2-3.13.11` contains BitLocker/FileVault keys and configuration compliance outputs.
+
+## 3. Archival and Client Delivery Handoff
+- [ ] System Security Plan (SSP) drafted and validated (Stored in `04-evidence/System_Security_Plan_(SSP)/`)
+- [ ] Final CMMC deliverables package presented and explained to Client management
+- [ ] Client Project Closeout Form signed and archived in `00-admin/`
+- [ ] Master compliance folder structure uploaded and synchronized to IT Glue (ITG)
+
+> **Source Standard:** Under **IT Glue MSP Documentation Best Practices**, ensure all compliance structures mirror the folder taxonomy precisely, with clear, uneditable read-only access set for the client.
+
+## 4. Final Handoff Sign-off
+*   **PM Sign-off:** ___________________________ **Date:** [YYYY-MM-DD]
+*   **Client POC Sign-off:** ____________________ **Date:** [YYYY-MM-DD]
