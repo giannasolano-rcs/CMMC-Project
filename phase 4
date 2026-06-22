@@ -1,0 +1,30 @@
+# Phase 4: Required Policies & Technical Hardening Log
+**Client Name:** [Client Name]  
+**Implementation Phase:** [Start Date] to [End Date]  
+
+---
+
+## 1. Custom Policy & Document Generation
+- [ ] Mandatory Policy Suite customized and built via URP (Stored in `04-evidence/Policies/`)
+- [ ] Draft System Security Plan (SSP) generated and prepared for client review
+- [ ] Policies signed and executed by the Client executive team
+
+## 2. Technical Hardening Configuration Records
+*List GPO, system, or firewall configuration updates implemented by the Technical Lead:*
+
+*   **Audit Logging Implementation (Control AU.L2-3.3.1):**
+    - [ ] GPO settings configured on Active Directory Domain Controllers.
+    - *Reference Source:* According to **Microsoft Docs ("Advanced Security Audit Policy Settings")**, configure audit policies for Account Logon, Privilege Use, and Directory Service Changes.
+*   **Identity Provider MFA Rules (Control IA.L2-3.5.3):**
+    - [ ] Conditional Access rules deployed across the cloud directory.
+    - *Reference Source:* Per **Microsoft Docs ("Enforce MFA with Conditional Access")**, verify that policies require MFA for all admin and user authentication sessions.
+*   **Edge Port Filtering (Control AC.L1-3.1.20):**
+    - [ ] Firewall security policies audited and restricted to authorized protocols.
+    - *Reference Source:* Per **Fortinet Knowledge Base (FD-12345)**, deny split-tunnel endpoints and audit active routing paths.
+
+## 3. Engineering Work Sign-off
+- [ ] 100% of technical tasks assigned to RCS in the Remediation Workbook are verified as active.
+- [ ] Individual configuration change tickets in Autotask PSA are resolved and closed.
+
+## 4. Phase-Gate Approval
+*   **Technical Lead Sign-off:** ___________________________ **Date:** [YYYY-MM-DD]
