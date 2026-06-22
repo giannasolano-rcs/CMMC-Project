@@ -1,0 +1,32 @@
+# Phase 1: Prospect, Proposal & Scope Definition
+**Client Name:** [Client Name]  
+**Target Compliance Level:** [CMMC Level 1 / CMMC Level 2]  
+**Assigned PM:** [PM Name]  
+**Assigned Technical Engineer:** [Engineer Name]  
+
+---
+
+## 1. Client Baseline Metadata
+*   **Total Scope Endpoints:** [Count] (Workstations, Servers, Network Devices)
+*   **Physical Locations:** [Count] (Include remote offices and co-working facilities)
+*   **Cloud Directories:** [Active Directory / Microsoft Entra ID / Hybrid]
+*   **Contract Target Date:** [YYYY-MM-DD]
+
+## 2. Technical Boundary Mapping
+*   **CUI Flow Scope:** [Define how Federal Contract Information (FCI) or Controlled Unclassified Information (CUI) enters, transits, and exits the network environment]
+*   **Scope Grouping:**
+    - *CUI Assets (Directly Process/Store/Transmit):* [e.g., Local File Server, CAD Workstations]
+    - *Security Protection Assets (SPAs):* [e.g., FortiGate Firewall, Entra ID Conditional Access Engine]
+    - *Out-of-Scope Assets:* [e.g., Segmented Guest Network, Local VoIP Phones]
+
+> **Source Standard:** Per the **OUSD(A&S) CMMC Scoping Guidance**, all assets that process, store, or transmit CUI, or provide security protection to those assets, must be defined within the system security boundary.
+
+## 3. Proposal Status Tracker
+- [ ] Compliance Intake Meeting Completed (Date: [YYYY-MM-DD])
+- [ ] Pricing model generated using `RCS_CMMC_L1_Pricing_Model.xlsx`
+- [ ] Gap Assessment Proposal PDF generated via URP
+- [ ] Signed SOW received from client (Stored in `00-admin/` folder)
+
+## 4. Phase-Gate Approval
+*   **PM Sign-off:** ___________________________ **Date:** [YYYY-MM-DD]
+*   **Sales Sign-off:** _________________________ **Date:** [YYYY-MM-DD]
