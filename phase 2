@@ -1,0 +1,30 @@
+# Phase 2: Technical Scan & Control Baseline Record
+**Client Name:** [Client Name]  
+**Assessment Period:** [Start Date] to [End Date]  
+
+---
+
+## 1. Network Scan & Agent Coverage Log
+- [ ] RFT collector agents deployed via Datto RMM
+- [ ] Active Directory database collection executed
+- [ ] External/Internal network and vulnerability scans completed
+- [ ] Coverage Verification: Total in-scope endpoints scanned = [Count] / Total in-scope endpoints = [Count] (Target: 100% Coverage)
+
+## 2. Technical Baseline Deficiencies (Sourced Gaps)
+*   **Local Password & Account Lockout Policies:**
+    - *Finding:* [e.g., Password length set to default 7 characters; no lockout policy active]
+    - *Reference Source:* According to **Microsoft Docs ("Password Policy GPO Best Practices")**, passwords must be a minimum of 12 characters, and accounts must lock out after a maximum of 10 failed login attempts.
+*   **Endpoint Disk Encryption:**
+    - *Finding:* [e.g., BitLocker is disabled on remote laptop workstations]
+    - *Reference Source:* According to **Microsoft Docs ("BitLocker GPO Reference")**, full disk encryption using XTS-AES 256-bit parameters must be enforced via Active Directory or Intune MDM.
+*   **Perimeter Log Routing:**
+    - *Finding:* [e.g., Local firewall logs are not being forwarded to a centralized security repository]
+    - *Reference Source:* Per **Fortinet Knowledge Base (FD-43759)**, configure syslog forwarding on all edge appliances to send audited sessions to a secure, centralized server.
+
+## 3. Assessment Output Artifacts
+- [ ] RFT Rapid Baseline Assessment (RBA) Report generated (Stored in `01-scoping/`)
+- [ ] RFT GRC Requirements and Controls mapping verified
+- [ ] Final baseline POA&M spreadsheet exported (Stored in `05-poam/`)
+
+## 4. Phase-Gate Approval
+*   **Technical Lead Sign-off:** ___________________________ **Date:** [YYYY-MM-DD]
