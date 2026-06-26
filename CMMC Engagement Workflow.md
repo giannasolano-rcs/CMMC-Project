@@ -6,7 +6,7 @@ This document converts the RCS CMMC Engagement Workflow from a high-level slide 
 
 ## Intended audience
 
-RCS project managers
+RCS project managers + Compliance Managers
 
 ## How to use this document
 
